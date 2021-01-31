@@ -23,14 +23,12 @@ public class Main_1157 {
 				answer = (char) (i + 'A');
 			}
 			else if(max == alphabet[i]) {
-				answer = '?'; //가장 많이 사용된 알파벳이 여러 개 존재하는 경우에는 '?'으로 다시 할당
+				answer = '?'; //알파벳 사용 개수가 같은 경우에는 '?'으로 다시 할당
 			}
 		}
 		
 		System.out.println(answer);
 		
-		
-
 	}
 
 }
