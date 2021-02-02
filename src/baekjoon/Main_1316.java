@@ -16,6 +16,7 @@ public class Main_1316 {
 		}
 		System.out.println(cnt);
 
+
 	}
 	
 	public static boolean check() throws IOException {
