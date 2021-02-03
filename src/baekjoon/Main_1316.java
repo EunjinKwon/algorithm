@@ -16,7 +16,6 @@ public class Main_1316 {
 		}
 		System.out.println(cnt);
 
-
 	}
 	
 	public static boolean check() throws IOException {
@@ -30,7 +29,7 @@ public class Main_1316 {
 			if(now != prev) { //이전 문자와 현재 문자가 다를 때.그룹 단어가 바뀔 때
 				if(check[now - 'a'] == false) {//처음 나오는 문자이면
 					check[now - 'a'] = true; //true로 바꿔준다
-					prev = now; //prev를 now로 변경해준다ㅣ
+					prev = now; //prev를 now로 변경해준다
 					}
 				else {
 					return false; //check[now-'a']가 true이면 그룹단어가 아닌 경우이다.
