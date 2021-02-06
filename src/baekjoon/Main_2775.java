@@ -25,7 +25,9 @@ public class Main_2775 {
 					else {
 						for(int h=1; h<=j;h++) //i층j호에 사는 사람수는 (i-1)층 1~j호에 사는 사람수의 합
 							apart[i][j] += apart[i-1][h];
-					}
+						}
+					//apart[i][j] = apart[i-1][j] + apart[i][j-1];
+					//위의 규칙을 찾는다면 for문(h)을 하나 줄일 수 있다.
 				}
 				
 			}
